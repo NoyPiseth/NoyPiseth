@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 1080px;
+    height: auto;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: #333;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #f0a500;
+}
+.navbar .navlink{
+    cursor: pointer;
+}
+
+.navbar .Name{
+    cursor: pointer;
+}
+.navbar .Name:hover{
+  color: #f0a500;
+}
+
+
+#profile{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+#profile .avatar{
+    flex-grow: 1;
+    max-width: 50%;
+    max-height: 50%;
+    text-align: center;
+}
+.avatar img{
+    width: 50%;
+    border: 5px solid rgb(208, 243, 52);
+    box-shadow: -1px 5px 20px 3px rgba(0, 0, 0, 0.32);
+}
+
+#prfile .information {
+    flex-grow: 1;
+    text-align:left;
+    padding-left: 50px;
+  }
+  
+  #profile .information h1 {
+    font-size: 4rem;
+    letter-spacing: 3px;
+  }
+  #profile .information h3 {
+    font-size: 1rem;
+    letter-spacing: 4px;
+    text-wrap: wrap;
+    margin-top: 10px;
+    opacity: .6;
+    
+  }
+  #profile .information .address{
+      margin-top: 30px;
+  }
+  #profile .information .address p{
+      margin-top: 5px;
+  }
+  #profile .information .social-media{
+      margin-top: 10px;
+      font-size: 1.5rem;
+  }
+  #profile .information .social-media a{
+      margin-left: 20px;
+  }
+   .social-media .facebook{
+      color: #4267B2;
+  }
+  .social-media .instagram{
+      color: #c32aa3;
+  }
+  .social-media .youtube{
+      color: #ff0000;
+  }
+  .social-media a:hover{
+      box-shadow: 0px 0px 5px 5px rgba(16, 39, 245, 0.2);
+  }
+
+  #aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+  }
+
+  #aboutme .about{
+    flex-grow: 1;
+    max-width: 50%;
+  }
+
+  #aboutme .Artwork{
+    flex-grow: 1;
+    max-width: 50%;
+    text-align: center;
+  }
+  .Artwork img{
+    width: 80%;
+  }
+
+  #aboutme .about h3 {
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    text-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  #aboutme .about p{
+    line-height: 1.4rem;
+    /* margin-bottom: 20px; */
+  }
+  
+  #aboutme p span{
+    background-color: rgb(29, 85, 253);
+    color: white;
+    font-size: 15px;
+    padding: 2px 7px;
+    border-radius: 2px;
+  }
+
+  #aboutme .knowledge{
+    display: flex;
+    font-size: 0;
+  }
+  #aboutme .knowledge .btn-group{
+    margin: 20px 20px 0 0;
+  }
+  #aboutme .knowledge .btn-group button{
+    color: aliceblue;
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+  }
+  #aboutme .knowledge .btn-group button:first-child{
+    border-radius: 5px 0 0 5px;
+  }
+  #aboutme .knowledge .btn-group button:last-child{
+    border-radius: 0 5px 5px 0;
+  }
+
+  .set-blue{
+    background-color: #0a66c2 !important;
+  }
+  .set-blue:hover{
+    background-color: #5f8bb7 !important;
+  }
+
+
+  .set-pink{
+    background-color: #982162 !important;
+  }  
+  .set-pink:hover{
+    background-color: #aa7592 !important;
+  }
+
+
+  .set-red{
+    background-color: #aa1b1b !important;
+  }
+  .set-red:hover{
+    background-color: #b35d5d !important;
+  }
+
+
+  .set-gold{
+    background-color: goldenrod !important;
+  }
+  .set-gold:hover{
+    background-color: rgb(193, 173, 124) !important;
+  }
+
+
+  #aboutme .knowledge button:hover {
+    background-color: rgb(71, 71, 71);
+  }
